@@ -30,9 +30,9 @@ with sr.Microphone() as source:
     print(text)
 
 # Respond to the initial query
-if "what" in text and "about" in text and "you" in text:
-    speak("I am having a good day, sir.")
-    speak("How can I help you?")
+if "Satyam" in text:
+    # speak("I am having a good day, sir.")
+    speak("Hello Satyam, how can I help you?")
 
 # Listen for the next command
 with sr.Microphone() as source:
